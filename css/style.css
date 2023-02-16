@@ -2,4 +2,86 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 4px;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding: 0 calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background: url(../img/top/1.png) center/cover no-repeat;
+}
+.top__title {
+  padding: 217px 0 0 0;
+  font-weight: 700;
+  font-size: 16rem;
+  line-height: 19.5rem;
+  max-width: 760px;
+  margin: 0 0 32px 0;
+}
+.top__text {
+  font-weight: 300;
+  font-size: 4.5rem;
+  line-height: 8rem;
+  max-width: 480px;
+  margin: 0 0 44px 0;
+}
+.top__text--bolt {
+  font-weight: 500;
+}
+.top__link {
+  display: inline-block;
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234px;
+  height: 47px;
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play {
+  background: #000915;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.play__row {
+  display: flex;
+  gap: 32px;
+}
+
+.game {
+  width: 380px;
+  height: 300px;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  align-items: end;
+}
+.game__game-1 {
+  background: url(../img/plays/1.png) center/cover no-repeat;
+}
+.game__game-2 {
+  background: url(../img/plays/2.png) center/cover no-repeat;
+}
+.game__game-3 {
+  background: url(../img/plays/3.png) center/cover no-repeat;
+}
+.game__title {
+  font-weight: 600;
+  font-size: 6rem;
+  line-height: 8rem;
 }
