@@ -4,20 +4,27 @@
 	}
 	.top{
 		padding-bottom: 238px;
-		&__title{
+		&__description{
 			padding-top: 238px;
+		}
+	}
+	.description{
+		&__title{
 			font-size: 8rem;
 			line-height: 9.75rem;
 			text-align: center;
 			max-width: 343px;
-			margin: 0 auto 32px;
+			margin: 0 auto;
 		}
 		&__text{
 			max-width: 343px;
-			margin: 0 auto 32px;
+			margin: 0 auto;
 			text-align: center;
 			font-size: 3.5rem;
 			line-height: 5.5rem;
+			&--short{
+				padding-bottom: 0;
+			}
 		}
 		&__link{
 			margin: 0 auto;
