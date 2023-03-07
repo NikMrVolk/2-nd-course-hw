@@ -4,10 +4,10 @@
 // const myArr = [1, 5, 4, 10, 0, 3];
 
 // for (const element of myArr) {
+// 	console.log(element);
 // 	if (element === 10) {
 // 		break;
 // 	}
-// 	console.log(element);
 // }
 
 // =======================================================================================================================
@@ -15,13 +15,9 @@
 // Exercise №2
 // =======================================================================================================================
 
-// const myArr = [1, 5, 4, 10, 0, 3];
+	// const myArr = [1, 5, 4, 10, 0, 3];
 
-// myArr.forEach((element, index) => {
-// 	if (element === 4) {
-// 		console.log(`Index of number 4 in array is ${index}.`);
-// 	}
-// });
+	// console.log(myArr.indexOf(4));
 
 // =======================================================================================================================
 
@@ -42,10 +38,12 @@
 
 // for (let a = 0; a < 3; a++) {
 // 	myArr[a] = [1];
-// 	for (b = 0; b < 3; b++) {
-// 		myArr[a][b] = [1] 
+// 	for (b = 0; b < 2; b++) {
+// 		myArr[a].push(1);
 // 	}
 // }
+
+// console.log(myArr);
 
 
 // =======================================================================================================================
@@ -97,7 +95,7 @@
 
 // const myArr = myString.split('');
 // myArr.reverse();
-// console.log(myArr.join('')); 
+// console.log(myArr.join(''));
 
 
 // =======================================================================================================================
@@ -116,7 +114,12 @@
 // Exercise №10
 // =======================================================================================================================
 
-// const myArr = [3, 7, 2, 9, 4, 6, 8];
+// const myArr = [];
+
+// for (let i = 0; i < 10; i++) {
+// 	myArr.push(Math.round(Math.random() * 9 + 1))
+// }
+// console.log(myArr);
 
 // for (let index = 0; index < myArr.length; index++) {
 // 	if (myArr[index + 1]) {
@@ -153,12 +156,12 @@
 // console.log(myArr);
 
 // const getAverage = (myArr) => {
-// 	let sum = 0; 
-// 	for (let i = 0; i < myArr.length; i += 1) { 
-// 		sum += myArr[i]; 
+// 	let sum = 0;
+// 	for (let i = 0; i < myArr.length; i += 1) {
+// 		sum += myArr[i];
 // 	}
 // 	return sum / myArr.length;
 // };
-// console.log(getAverage(myArr)); 
+// console.log(getAverage(myArr));
 
 // =======================================================================================================================
