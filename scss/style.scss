@@ -22,25 +22,37 @@ a{
 .top {
 	padding-bottom: 493px;
 	background: url(../img/top/1.png) center/cover no-repeat;
-	&__title{
-		padding: 217px 0 0 0;
-		font-weight: 700;
-		font-size: 16rem;
-		line-height: 19.5rem;
+	&__description{
+		padding-top: 217px;
 		max-width: 760px;
-		margin: 0 0 32px 0;
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+}
+
+.description{
+	&__title{
+		font-weight: 700;
+		font-size: 12rem;
+		line-height: 14.75rem;
+		&--bigger{
+			font-size: 16rem;
+			line-height: 19.5rem;
+		}
 	}
 	&__text {
 		font-weight: 300;
 		font-size: 4.5rem;
 		line-height: 8rem;
-		max-width: 480px;
-		margin: 0 0 44px 0;
+		&--short{
+			max-width: 480px;
+			padding-bottom: 12px;
+		}
 	}
 	&__text--bolt {
 		font-weight: 500;
 	}
-
 	&__link {
 		display: inline-block;
 		background: #9C0332;
@@ -110,18 +122,6 @@ a{
 		flex-direction: column;
 		gap: 32px;
 		max-width: 584px;
-		}
-
-	&__title {
-		font-weight: 700;
-		font-size: 12rem;
-		line-height: 19.75rem;
-		}
-
-	&__text {
-		font-weight: 300;
-		font-size: 4.5rem;
-		line-height: 9rem;
 		}
 	&__img {
 		max-width: 100%
