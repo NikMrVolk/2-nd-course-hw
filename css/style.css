@@ -26,11 +26,13 @@ a {
 .top__description {
   padding-top: 217px;
   max-width: 760px;
+}
+
+.description {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-
 .description__title {
   font-weight: 700;
   font-size: 12rem;
@@ -117,13 +119,30 @@ a {
 }
 .seasons__description {
   align-self: center;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
   max-width: 584px;
 }
 .seasons__img {
   max-width: 100%;
+}
+
+.remember {
+  background: #000915;
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
+.remember__row {
+  display: flex;
+  justify-content: space-between;
+}
+.remember__image {
+  max-width: 488px;
+}
+.remember__img {
+  width: 100%;
+}
+.remember__description {
+  max-width: 588px;
+  padding-top: 43px;
 }
 
 @media (max-width: 768px) {

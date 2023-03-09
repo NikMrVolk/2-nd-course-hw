@@ -74,18 +74,81 @@
 // Exercise №6
 // =======================================================================================================================
 
-const myNumberForArr = 100;
+// const myNumberForArr = 100;
 
-const getRandomArrNumbers = number => {
-	const myArr = [];
-	
-	for (let index = 0; index < Math.floor(number / 2); index++) {
-		myArr.push(Math.round(Math.random() * number));
-	}
-	
-	console.log(myArr);
-}
+// const getRandomArrNumbers = number => {
+// 	const myArr = [];
 
-getRandomArrNumbers(myNumberForArr);
+// 	for (let index = 0; index < Math.floor(number / 2); index++) {
+// 		myArr.push(Math.round(Math.random() * number));
+// 	}
+
+// 	console.log(myArr);
+// }
+
+// getRandomArrNumbers(myNumberForArr);
+
+// =======================================================================================================================
+
+
+
+// Exercise №7
+// =======================================================================================================================
+
+// const outputIntermediateNumber = (numberStartRange, numberEndRange) => {
+// 	console.log(Math.round(Math.random() * (numberEndRange - numberStartRange) + numberStartRange));
+// }
+
+// =======================================================================================================================
+
+
+
+// Exercise №8
+// =======================================================================================================================
+
+// let currentDate = new Date();
+// console.log(currentDate)
+
+// =======================================================================================================================
+
+
+
+// Exercise №9
+// =======================================================================================================================
+
+// let currentDate = new Date();
+// console.log(currentDate);
+
+// currentDate.setDate(currentDate.getDate() + 73);
+// console.log(currentDate);
+
+// =======================================================================================================================
+
+
+
+// Exercise №10
+// =======================================================================================================================
+
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+// 	"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+// let myDate = new Date();
+
+// const shawRussianDate = (yourDate) => {
+// 	console.log(`Дата: ${yourDate.getDate()} ${months[yourDate.getMonth()]} ${yourDate.getFullYear()}`);
+// 	console.log(`Время: ${yourDate.getHours()} ${yourDate.getMinutes()} ${yourDate.getSeconds()}`);
+// }
+
+// shawRussianDate(myDate);
+
+// =======================================================================================================================
+
+
+
+// Exercise №11
+// =======================================================================================================================
+
+
 
 // =======================================================================================================================
