@@ -149,6 +149,26 @@
 // Exercise №11
 // =======================================================================================================================
 
+const rememberWords = () => {
+	let arrWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+	arrWords = arrWords.sort(() => Math.random() - 0.5).join(' ');
+	alert(arrWords);
+
+	arrWords = arrWords.toLowerCase()
+	arrWords = arrWords.split(' ');
+
+	const firstFruit = prompt('Какой фрукт был назван первым?').toLowerCase();
+	const secondFruit = prompt('Какой фрукт был назван последним?').toLowerCase();
+
+	if (firstFruit === arrWords[0] && secondFruit === arrWords.splice(-1).toString()) {
+		alert('Вы угадали!');
+	} else if (firstFruit === arrWords[0] || secondFruit === arrWords.splice(-1).toString()) {
+		alert('Вы были близки к победе!');
+	} else {
+		alert('Вы ответили неверно!');
+	}
+}
+
 
 
 // =======================================================================================================================

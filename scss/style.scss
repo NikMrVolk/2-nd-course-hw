@@ -114,6 +114,7 @@ a{
 	padding-bottom: 233px;
 	&__row {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		}
 	&__description {
@@ -132,6 +133,7 @@ a{
 	&__row {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap-reverse;
 	}
 	&__image {
 		max-width: 488px;

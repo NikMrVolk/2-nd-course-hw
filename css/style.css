@@ -115,6 +115,7 @@ a {
 }
 .seasons__row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .seasons__description {
@@ -133,6 +134,7 @@ a {
 .remember__row {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 .remember__image {
   max-width: 488px;
@@ -186,7 +188,6 @@ a {
   }
   .seasons__row {
     justify-content: center;
-    flex-wrap: wrap;
     gap: 64px;
   }
   .seasons__description {
@@ -203,6 +204,20 @@ a {
     text-align: center;
   }
   .seasons__image {
+    max-width: 344px;
+  }
+  .remember {
+    padding-top: 51px;
+    padding-bottom: 90px;
+  }
+  .remember__row {
+    justify-content: center;
+    gap: 64px;
+  }
+  .remember__description {
+    padding: 0;
+  }
+  .remember__image {
     max-width: 344px;
   }
 }
