@@ -42,7 +42,6 @@
 		padding-bottom: 85px;
 		&__row{
 			justify-content: center;
-			flex-wrap: wrap;
 			gap: 64px;
 		}
 		&__description{
@@ -57,6 +56,20 @@
 			font-size: 3.5rem;
 			line-height: 5.5rem;
 			text-align: center;
+		}
+		&__image{
+			max-width: 344px;
+		}
+	}
+	.remember{
+		padding-top: 51px;
+		padding-bottom: 90px;
+		&__row{
+			justify-content: center; 
+			gap: 64px;
+		}
+		&__description{
+			padding: 0;
 		}
 		&__image{
 			max-width: 344px;

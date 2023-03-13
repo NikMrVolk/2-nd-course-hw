@@ -25,13 +25,13 @@ a{
 	&__description{
 		padding-top: 217px;
 		max-width: 760px;
-		display: flex;
-		flex-direction: column;
-		gap: 32px;
 	}
 }
 
 .description{
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
 	&__title{
 		font-weight: 700;
 		font-size: 12rem;
@@ -114,18 +114,37 @@ a{
 	padding-bottom: 233px;
 	&__row {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		}
 	&__description {
 		align-self: center;
-		display: flex;
-		flex-direction: column;
-		gap: 32px;
 		max-width: 584px;
 		}
 	&__img {
 		max-width: 100%
 		}
+}
+
+.remember {
+	background: #000915;
+	padding-top: 239px;
+	padding-bottom: 239px;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap-reverse;
+	}
+	&__image {
+		max-width: 488px;
+	}
+	&__img {
+		width: 100%;
+	}
+	&__description {
+		max-width: 588px;
+		padding-top: 43px;
+	}
 }
 
 @import 'mobile';
